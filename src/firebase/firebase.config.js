@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB3YKwaWYtDs4husn4zydUiignKrY5csps",
-  authDomain: "smartjobs-9a402.firebaseapp.com",
-  projectId: "smartjobs-9a402",
-  storageBucket: "smartjobs-9a402.firebasestorage.app",
-  messagingSenderId: "353127732148",
-  appId: "1:353127732148:web:f3b6393f607d04121c58e1"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 
