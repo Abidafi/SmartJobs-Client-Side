@@ -1,16 +1,110 @@
-# React + Vite
+# WarmPaws – Pet Care in Winter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🐾 Project Overview
 
-Currently, two official plugins are available:
+**WarmPaws** is a cozy winter companion platform designed for pet owners to ensure their furry friends stay warm, safe, and healthy during the cold season. This React-based single-page application (SPA) allows users to explore local pet care services, winter pet clothing, grooming options, and expert tips — all in one friendly, modern interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Live Demo 
+🔗 https://winter-pet-paradise.netlify.app/
 
-## React Compiler
+# ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# ✅ Core Features
 
-## Expanding the ESLint configuration
+* Winter-themed UI with a cozy, minimalist design
+* Fully responsive across mobile, tablet, and desktop
+* Smooth SPA navigation with React Router 
+* Firebase Authentication (Email/Password & Google Login)
+* Protected Routes for service booking
+* Interactive service booking with toast notifications
+* User profile management with photo upload
+* Forgot password functionality with email redirection
+* Password toggle visibility in login/signup forms
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🎨 Design & UX
+
+* Modern, minimalist winter theme
+* Subtle animations using AOS & Swiper.js
+* Interactive cards with hover effects
+* Gradient backgrounds and cozy color schemes
+* Smooth transitions and loading states
+
+# 📱 Pages & Sections
+
+1. **Homepage**
+     * Winter-themed hero slider (Swiper.js)
+    * Popular winter care services
+    * Winter pet care tips
+    * Client testimonials
+    * Expert vets showcase
+
+2. **Services Page**
+
+    * Interactive service slider
+    * Service packages with pricing
+    * Booking form with validation
+    * Customer reviews
+
+3. **My Profile Page**
+
+    * User info display
+    * Editable profile with image upload
+    * Update functionality using Firebase updateProfile()
+
+4. **Authentication Pages**
+
+    * Login with email/password & Google
+    * Signup with password validation
+    * Forgot password flow
+
+# 🛠️ Technologies Used
+
+## Frontend
+
+* React 18 with Vite
+* React Router DOM for routing
+* Tailwind CSS for styling
+* Swiper.js for sliders
+* AOS (Animate On Scroll) for animations
+* React Toastify for notifications
+* React Icons for icons
+
+## Backend & Authentication
+
+* Firebase Authentication
+* Firebase Hosting (optional)
+* Environment Variables for security
+
+## Development Tools
+
+* ESLint for code quality
+* Git & GitHub for version control
+* PostImages/ImgBB for image hosting
+
+## ✅ Challenges Completed
+
+* Update Profile functionality
+* Forgot Password feature
+* Password toggle eye button
+* 3+ required npm packages used
+
+## 📄 License
+
+This project is created for educational purposes as part of an assignment.
+
+## 👤 Author
+
+Md Abidur Rahman
+
+* GitHub: @Abidafi
+* Email: abid19918february@gmail.com
+
+## 🙏 Acknowledgments
+
+* Assignment guidelines from Programming Hero
+* Firebase documentation
+* Tailwind CSS team
+* All open-source package maintainers 
+
+
+Last Updated: 11 December 2025.
