@@ -121,7 +121,7 @@ const Signin = () => {
           </form>
 
           <div className="mt-6 text-center text-gray-700">
-            New to FlexJobs?{" "}
+            New to SmartJobs?{" "}
             <Link to="/signup" className="text-blue-500 font-semibold hover:underline">Join now!</Link>
           </div>
         </div>
