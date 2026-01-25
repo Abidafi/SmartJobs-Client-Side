@@ -37,6 +37,9 @@ const Navbar = () => {
           <li>
             <MyLink to={"/services"}>Services</MyLink>
           </li>
+          <li>
+            <MyLink to={"/add-service"}>Add Services</MyLink>
+          </li>
           {user && (
             <li>
               <MyLink to={"/profile"}>My Profile</MyLink>
