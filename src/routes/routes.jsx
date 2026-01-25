@@ -8,6 +8,8 @@ import Signin from "../pages/Signin";
 import PrivateRoute from "../privateRoute/PrivateRoute";
 import AddService from "../pages/AddService";
 import ServiceDetails from "../pages/ServiceDetails";
+import TabularService from "../pages/TabularService";
+import UpdateService from "../pages/UpdateService";
 
 
 export const router = createBrowserRouter([
@@ -42,6 +44,14 @@ export const router = createBrowserRouter([
             <MyProfile />
           </PrivateRoute>
         ),
+      },
+      {
+        path: '/tabular-service',
+        element: <TabularService></TabularService>,
+      },
+      {
+        path: '/update-service/:id',
+        element: <UpdateService></UpdateService>,
       },
       {
         path: "/signup",
